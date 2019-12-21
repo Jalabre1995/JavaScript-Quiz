@@ -1,0 +1,68 @@
+*, ::before, ::after {
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+ body {
+     padding: 0;
+     margin: 0;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100%;
+     width: 100%;
+     background-color: blueviolet;
+ }
+
+ .container {
+     width: 50%;
+     height: 300px;
+     padding: 10px;
+     border-radius: 3px;
+     background-color: ivory;
+     margin: 123px;
+     box-shadow: black;
+
+ }
+
+ .grid-answers {
+     display:grid;
+     grid-template-columns: repeat(2,auto);
+     gap: 10px;
+     margin: 20px 0;
+
+ }
+
+ .btn-1 {
+     margin: 4px;
+     border: 1px solid;
+ }
+
+
+ .btn-2 {
+     margin: 4px;
+     border: 1px solid;
+ }
+
+ .btn-3 {
+     margin: 4px;
+     border: 1px solid;
+ }
+
+ .btn-4 {
+     margin: 4px;
+     border: 1px solid;
+ }
+
+ .answer-btn {
+     margin: 4px;
+     border: 1px solid;
+ }
+
+ #next-btn.next.hide {
+     float: right;
+ }
+
+ .hide {
+     display: none;
+ }
