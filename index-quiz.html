@@ -9,11 +9,28 @@
     <link rel="stylesheet" href="Quiz.css">
 </head>
 <body>
+    <div class = "time-score-container">
+        <div class="row">
+            <div class="col-md-12">
+                <div id="score" class="high-score">
+                <button class="high">View High Score:</button>
+                </div>
+                
+                <div id = "timer" class=timeset>
+                <button class="seconds">Time:</button>
+            
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    
    
-    <butt/button class = "container">
-        <div id = "question-container" class="hide"></div>
-        <div id = "question">Question</div>
-        <div id = "answers" class="grid-answers">
+     <div class = "container">
+        <div id = "question-container" class="hide">
+            <div id = "question">Question</div>
+         <div id = "answers" class="grid-answers">
             <div class="row">
                 <div class="col-md-2">
                     <button class="btn-1">Answer1</button>
@@ -22,12 +39,16 @@
                     <button class="btn-4">Answer4</button>
 
                 </div>
-        </div>
-
+          </div>
+        
+        
+      </div>
+        
+     
     </div>
     <div class="operating-controls">
         <button id = "start-btn" class="start">Start</button>
-        <button id = "next-btn" class="next hide">Next</button>
+        <button id = "next-btn" class="next-hide">Next</button>
     </div>
 
 
