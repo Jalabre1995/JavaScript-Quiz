@@ -5,3 +5,4 @@ The purpose of this project was to create a simple quiz portal in with javascrip
 2:style.css for basic styling.
 3:main.js functioning for the portal.
 4:question.js contains question for quiz in an array form. You can change the question and any modification is most welcome.
+The link is  https://jalabre1995.github.io/JavaScript-Quiz/
